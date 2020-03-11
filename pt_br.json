@@ -1,0 +1,116 @@
+{
+    "PLAY": "{:0} sets / {:1} / {:2}",
+    "COMMENT": "Obrigado por trocar com o serviço Ziley Level Up!",
+    "DECLINE": "Proposta Recusada",
+    "ACCEPT": "Doação aceita!",
+    "GENERALS" : {
+        "BOTBY": "Este Bot é mantido por {:0}",
+        "OWNERPROFILE": "https://steamcommunity.com/id/99879800/",
+        "TRANSLATEBY": "https://steamcommunity.com/id/99879800/",
+        "WELCOME": "Olá. Eu sou um bot de cartas. Use {:0}, {:1} ou {:2}",
+        "HELPMSG": "Comandos:\n{:0} [idioma de preferencia] - Altera o idioma do Bot\nIdiomas disponíveis [en, pt_br]\n\n{:1} - mostra meu perfil de proprietário, se você tiver algum problema com o bot, pode entrar em contato com ele\n{:2} - mostra a quantidade atual de sets do bot\n{:3} - mostra os preços atuais do bot\n\n{:4} [nivel dos sonhos] - calcula quantos conjuntos e quantas chaves custará para atingir o nível desejado\n{:5} - mostra quantos conjuntos o bot tem disponível para você criar\n\nComandos para pagamento com chaves CS:GO\n{:5} [quantia] - mostra quantos conjuntos e qual nível você alcançará para uma quantidade específica de chaves CS:GO\n{:6} [quantia de chaves CS:GO] - use isso para comprar conjuntos que você ainda não criou para essa quantidade de chaves CS:GO, seguindo a taxa atual do bot\n{:7} [quantia de chaves CS:GO] - use isso para comprar com essa quantidade de chaves CS:GO para todos os conjuntos, mesmo de insignias que já foram criadas, seguindo a taxa atual do bot\n{:8} [quantia de chaves CS:GO] - use isso somente se você for um colecionador de insignias. O bot enviará um set de cada jogo, pela taxa atual do bot\n{:9} [quantia de chaves CS:GO] - venda seus sets por chaves do CS:GO\n{:10} - mostra informações sobre os conjuntos que você pode vender\n\nComandos para pagamento com chaves CS:GO Hydra\n{:11} [quantia] - mostra quantos conjuntos e qual nível você alcançará para uma quantidade específica de chaves Hydra CS:GO\n{:12} [quantia de chaves CS:GO Hydra] - o mesmo que {:6}, mas você paga com as chaves CS:GO Hydra\n{:13} [quantia de chaves CS:GO Hydra] - o mesmo que {:7}, mas você paga com chaves CS:GO Hydra\n{:14} [quantia de chaves CS:GO Hydra] - use isso somente se você for um colecionador de insignias. O bot enviará um set de cada jogo, pela taxa atual do bot\n{:15} [quantia de chaves CS:GO Hydra] - venda seus sets por chaves do CS:GO Hydra\n{:16} - mostra informações sobre os conjuntos que você pode vender\n\nComandos para pagamento com chaves TF\n{:17} [quantia] - mostra quantos conjuntos e qual nível você alcançará para uma quantidade específica de chaves TF\n{:18} [quantia de chaves TF] - o mesmo que {:6}, mas você paga com as chaves TF\n{:19} [quantia de chaves TF] - o mesmo que {:7}, mas você paga com chaves TF\n{:20} [quantia de chaves TF] - use isso somente se você for um colecionador de insignias. O bot enviará um set de cada jogo, pela taxa atual do bot\n{:21} [quantia de chaves TF] - venda seus sets por chaves do TF\n{:22} - mostra informações sobre os conjuntos que você pode vender\n\nInteressado em adicionar seu idioma ao Bot?\nVeja como em:\nhttps://github.com/darleizillmer/Locales_SteamBot",
+        "PRICESMSG": "Você pode comprar:\n{:0} sets por 1 chave CS:GO\n{:1} sets por 1 chave CS:GO Hydra\n{:2} sets por 1 chave TF\n\nVocê pode vender:\n{:3} sets por 1 chave CS:GO\n{:4} sets por 1 chave CS:GO Hydra\n{:5} sets por 1 chave TF\n\nDigite {:6} para ver a lista de comandos.",
+        "ERROR" : {
+            "INVALIDCOMMAND": "Comando não reconhecido. Use {:0} para ver como o bot funciona.",
+            "UNKNOWNLANG": "O bot não trabalha com esse idioma",
+            "UNAVAILABLE": "Por favor, tente novamente mais tarde.",
+            "INVLOADERROR": "Ocorreu um erro ao carregar o inventário do bot. Por favor, tente novamente.",
+            "SENDERINVLOAD": "Ocorreu um erro ao carregar seu inventário. Por favor tente mais tarde",
+            "MARKETOFF": "Ocorreu um erro ao enviar sua troca. O mercado da Steam podem estar offline. Por favor, tente novamente mais tarde."
+        },
+        "DEBUG" : {
+            "ARCHIVELOG" : "** DEBUG - Ocorreu um erro ao gravar o arquivo {:0}: {:1}",
+            "INVLOADED": "** DEBUG - INVENTARIO CARREGADO",
+            "SETSLOADED": "** DEBUG - SETS CARREGADOS",
+            "BOTSETSLOADED": "** DEBUG - BOT CARREGOU OS CARDSETS",
+            "SETSLOADERROR": "** DEBUG - Ocorreu um erro ao carregar os cardsets: {:0}",
+            "INVLOADERROR": "** DEBUG - Ocorreu um erro ao obter inventario do BOT: {:0}",
+            "USERSETERROR": "** DEBUG - Ocorreu um erro ao obter sets de usuários: {:0}",
+            "USERINVERROR": "** DEBUG - Ocorreu um erro ao obter o inventário do usuário: {:0}",
+            "EXPSESSION": "** DEBUG - Sessao expirada, tetando relogar"
+        },
+        "TFKEY": " Chave(s) TF",
+        "NMKEY": " Chave(s) CSGO",
+        "HYKEY": " Chave(s) Hydra"
+    },
+    "COMMANDS" : {
+        "BUY": "!buy",
+        "BUYTF": "!buytf",
+        "BUYHYDRA": "!buyhydra",
+        "CHECK": "!check",
+        "CHECKTF": "!checktf",
+        "CHECKHYDRA": "!checkhydra",
+		"HELP": "!help",
+		"LEVEL": "!level",
+        "BUYONECHECK": "!buyonecheck",
+        "BUYONECHECKTF": "!buyonechecktf",  
+        "BUYONECHECKHYDRA": "!buyonecheckhydra",  
+        "SELLCHECK": "!sellcheck",
+        "SELLCHECKTF": "!sellchecktf",	
+        "SELLCHECKHYDRA": "!sellcheckhydra",	
+        "SELL": "!sell",
+        "SELLTF": "!selltf",
+        "SELLHYDRA": "!sellhydra",
+        "BUYONE": "!buyone",
+        "BUYONETF": "!buyonetf",
+        "BUYONEHYDRA": "!buyonehydra",
+        "BUYANY": "!buyany",
+        "BUYANYHYDRA": "!buyanyhydra",
+        "BUYANYTF": "!buyanytf",
+        "OWNER": "!owner",
+        "LANG": "!lang",
+        "STATS": "!stats",
+        "PRICES": "!prices"
+    },
+    "CHAT" : {
+        "LEVEL" : {
+            "CALC_LEVEL": "Para alcançar o nivel {:0} voce vai precisar de {:1} sets. Isso custaria {:2} chaves.",
+            "INVALID": "Forneça um nível válido.",
+            "CHECK_PROFILE": "Não foi possível recuperar seu nível. Verifique se o seu perfil do Steam é público e tente novamente.",
+            "ERR_BADGE": "Ocorreu um erro ao carregar suas insignias. Por favor, tente novamente mais tarde.",
+            "LOWER": "Por favor, tente um nível mais baixo."
+        },
+        "BUY" : {
+            "LOADING_BADGE": "Carregando Insignias...",
+            "LOADING_INV": "Carregando inventario...",
+            "PROCESSING": "Processando sua solicitação.",
+            "NO_BADGE": "Voce não possui insignias, enviando uma oferta sem verificar insígnias.",
+            "CHECK": "Atualmente, existem conjuntos de {:0} diferentes jogos, dos quais você não criou {:1}. Isso custaria {:2} chaves.",
+            "ERR_TRADE_TRY": "Ocorreu um erro ao tentar criar uma proposta. Por favor, tente novamente",
+            "INSUF_KEY": "Você não tem chaves suficientes.",
+            "INSUF_SETS": "Não há sets suficientes. Por favor, tente novamente mais tarde.",
+            "TRADE_SENT": "Proposta enviada! Confirmando...",
+            "VERIFY_TRADES": "Verifique se você não tem uma proposta de troca!",
+            "LESSKEYS": "Tente uma quantidade menor de chaves.",
+            "INVALID_QT": "Digite uma quantidade válida de chaves!",
+            "INSUF_FOR_KEYS": "Atualmente, não há sets suficientes que você não utilizou em estoque para essa quantidade de chaves. Por favor, tente novamente mais tarde. Se você deseja que o bot ignore suas insignias atuais, use {:0}."
+        },
+        "SELL" : {
+            "CHECK": "Você tem atualmente {:0} sets disponíveis que o bot pode comprar. Para todos eles, o bot pagará {:1} chaves.",
+            "PROCESSING": "Processando sua solicitação.",
+            "ERR_TRADE_TRY": "Ocorreu um erro ao tentar criar uma proposta. Por favor, tente novamente",
+            "INSUF_KEY": "O bot não tem chaves suficientes.",
+            "MAX_SETS": "Você não tem conjuntos suficientes, (este bot aceita apenas {:0} conjuntos por tipo de conjunto de cada vez). Por favor, tente novamente mais tarde.",
+            "TRADE_SENT": "Proposta enviada! Confirmando...",
+            "VERIFY_TRADES": "Verifique se você não tem uma proposta de troca!",
+            "LESSKEYS": "Tente uma quantidade menor de chaves.",
+            "INVALID_QT": "Digite uma quantidade válida de chaves!"
+        },
+        "CHECK" : {
+            "ISNAN": "Com {:0} keys você pode ter {:1} sets.",
+            "NULL_BADGE": "Suas insígnias estão vazias, fazendo checagem sem verificar insígnias.",
+            "COMPLETE": "Há atualmente {:0}/{:1} conjuntos disponíveis que você ainda não criou totalmente. Comprar todos eles custará {:2} chaves.",
+            "NOT_NULL": "Forneça um numero minimo de chaves."
+        },
+        "TRADE": {
+            "COMPLETE": "Proposta enviada! Clique aqui para aceita-la: https://www.steamcommunity.com/tradeoffer/{:0} \n{:1}",
+            "MESS_LINK": "Aqui está o link da troca. \n(Caso não funcione, aguarde 30 segundos e clique no link novamente)\nObrigado por negociar! Se você gostou do negócio, deixe um comentário no meu perfil",
+            "COMMENT": "Ocorreu um erro ao obter seu perfil (para comentar).",
+            "GET_COMMENTS": "Ocorreu um erro ao obter comentários no seu perfil.",
+            "THANKS": "Obrigado por negociar! :D"
+        },
+        "STAT": {
+            "MESSAGE": "{:0} Sets disponíveis"
+        }
+    }
+}

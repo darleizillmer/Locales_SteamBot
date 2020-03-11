@@ -1,0 +1,113 @@
+
+{
+    "PLAY": "{:0} sets / {:1} / {:2}",
+    "COMMENT": "Thanks for trading with Zileys's level up service!",
+    "DECLINE": "Trade Declined",
+    "ACCEPT": "Donation accepted!",
+    "GENERALS": {
+        "BOTBY": "This Bot is maintained by {:0}",
+        "OWNERPROFILE": "https://steamcommunity.com/id/99879800/",
+        "TRANSLATEBY": "https://steamcommunity.com/id/99879800/",
+        "WELCOME": "Hello. I'm a card bot. Use {:0}, {:1} or {:2}",
+        "HELPMSG": "Commands: \n {:0} [preferred language] - Change the language of the Bot \nAvailable languages ​​[en, pt_br] \n \n {:1} - show my owner profile, if you have some problem with the bot, you can contact him \n {:2} - shows the current number of bot sets \n {:3} - shows the current bot prices \n\n {:4} [level of dreams] - calculates how many sets and how many keys it will cost to reach the desired level \n {:5} - shows how many sets the bot has available for you to create \n \nCommands for payment with CS: GO keys \n {:5} [amount] - shows how many sets and what level you will reach for a specific amount of CS: GO keys \n {:6} [amount of CS: GO keys] - use this to buy sets you have not yet created for that amount of CS: GO keys, following the current rate of the bot \n {:7} [amount of CS: GO keys] - use this to buy with that amount of CS: GO keys for all sets, even insignias that have already been created , following until current bot rate \n {:8} [amount of CS: GO keys] - use this only if you are a badge collector. The bot will send a set of each game, at the current rate of the bot \n {:9} [amount of CS: GO keys] - sell your sets by CS: GO keys \n {:10} - shows information about the sets that you can sell \n \nCommands for payment with CS: GO Hydra keys \n {:11} [amount] - shows how many sets and what level you will reach for a specific amount of Hydra CS: GO keys \n {:12} [amount of CS: GO Hydra keys] - same as {:6}, but you pay with CS: GO Hydra keys \n {:13} [amount of CS: GO Hydra keys] - same as {:7 }, but you pay with CS: GO Hydra keys \n {:14} [amount of CS: GO Hydra keys] - use this only if you are a badge collector. The bot will send a set of each game, at the current rate of the bot \n {:15} [amount of keys CS: GO Hydra] - sell your sets by keys of CS: GO Hydra \n {:16} - shows information about the sets you can sell \n \nCommands for payment with TF keys \n {:17} [amount] - shows how many sets and what level you will reach for a specific amount of TF keys \n {:18} [amount of keys TF] - same as {:6}, but you pay with TF keys \n {:19} [amount of TF keys] - same as {:7}, but you pay with TF keys \n {:20 } [amount of TF keys] - use this only if you are a badge collector. The bot will send a set of each game, at the current rate of the bot \n {:21} [amount of TF keys] - sell your sets by TF keys \n {:22} - shows information about the sets you can sell \n \nInterested in adding your language to the Bot? \nSee how at: \nhttps: //github.com/darleizillmer/Locales_SteamBot\n ",
+        "PRICESMSG": "You can buy: \n {:0} sets for 1 CS: GO key \n {:1} sets for 1 CS: GO Hydra key \n {:2} sets for 1 TF key \n \nYou can sell: \n {:3} sets by 1 CS: GO key \n {:4} sets by 1 CS: GO Hydra key \n {:5} sets by 1 TF key \n \nEnter {:6} to see the list of commands. ",
+        "ERROR": {
+            "INVALIDCOMMAND": "Command not recognized. Use {:0} to see how the bot works.",
+            "UNKNOWNLANG": "The bot doesn't work with that language",
+            "UNAVAILABLE": "Please try again later.",
+            "INVLOADERROR": "An error occurred while loading the bot's inventory. Please try again.",
+            "SENDERINVLOAD": "There was an error loading your inventory. Please try again later",
+            "MARKETOFF": "An error occurred while sending your exchange. The Steam market may be offline. Please try again later."
+        },
+        "DEBUG": {
+            "ARCHIVELOG": "** DEBUG - An error occurred while writing the file {:0}: {:1}",
+            "INVLOADED": "** DEBUG - INVENTARIO LOADED",
+            "SETSLOADED": "** DEBUG - SETS LOADED",
+            "BOTSETSLOADED": "** DEBUG - BOT LOADED THE CARDSETS",
+            "SETSLOADERROR": "** DEBUG - An error occurred while loading cardsets: {:0}",
+            "INVLOADERROR": "** DEBUG - An error occurred while retrieving BOT inventory: {:0}",
+            "USERSETERROR": "** DEBUG - An error occurred while retrieving user sets: {:0}",
+            "USERINVERROR": "** DEBUG - An error occurred while fetching the user's inventory: {:0}",
+            "EXPSESSION": "** DEBUG - Session expired, trying to relog"
+        },
+        "TFKEY": "TF key (s)",
+        "NMKEY": "CSGO Key (s)",
+        "HYKEY": "Hydra key (s)"
+    },
+    "COMMANDS" : {
+        "BUY": "!buy",
+        "BUYTF": "!buytf",
+        "BUYHYDRA": "!buyhydra",
+        "CHECK": "!check",
+        "CHECKTF": "!checktf",
+        "CHECKHYDRA": "!checkhydra",
+		"HELP": "!help",
+		"LEVEL": "!level",
+        "BUYONECHECK": "!buyonecheck",
+        "BUYONECHECKTF": "!buyonechecktf",  
+        "BUYONECHECKHYDRA": "!buyonecheckhydra",  
+        "SELLCHECK": "!sellcheck",
+        "SELLCHECKTF": "!sellchecktf",	
+        "SELLCHECKHYDRA": "!sellcheckhydra",	
+        "SELL": "!sell",
+        "SELLTF": "!selltf",
+        "SELLHYDRA": "!sellhydra",
+        "BUYONE": "!buyone",
+        "BUYONETF": "!buyonetf",
+        "BUYONEHYDRA": "!buyonehydra",
+        "BUYANY": "!buyany",
+        "BUYANYHYDRA": "!buyanyhydra",
+        "BUYANYTF": "!buyanytf",
+        "OWNER": "!owner",
+        "LANG": "!lang",
+        "STATS": "!stats",
+        "PRICES": "!prices"
+    },
+    "CHAT": {
+        "LEVEL": {
+            "CALC_LEVEL": "To reach level {:0} you will need {:1} sets. This would cost {:2} keys.",
+            "INVALID": "Please provide a valid level.",
+            "CHECK_PROFILE": "We were unable to retrieve your level. Please verify that your Steam profile is public and try again.",
+            "ERR_BADGE": "An error occurred while getting your badges. Please try again.",
+            "LOWER": "Please try a lower level."
+        },
+        "BUY": {
+            "LOADING_BADGE": "Loading Badges ...",
+            "LOADING_INV": "Loading inventory ...",
+            "PROCESSING": "Processing your request.",
+            "NO_BADGE": "You don't have any badges, sending an offer without checking badges.",
+            "CHECK": "Currently, there are sets of {:0} different games, of which you have not created {:1}. This would cost {:2} keys.",
+            "ERR_TRADE_TRY": "An error occurred while getting your trade holds. Please try again.",
+            "INSUF_KEY": "You do not have enough keys.",
+            "INSUF_SETS": "There are not enough sets. Please try again later.",
+            "TRADE_SENT": "Proposal sent! Confirming ...",
+            "VERIFY_TRADES": "Please make sure you don't have a trade hold!",
+            "LESSKEYS": "Please try a lower amount of keys",
+            "INVALID_QT": "Please provide a valid amount of keys.",
+            "INSUF_FOR_KEYS": "There are currently not enough sets that you have not used in stock for this amount of keys. Please try again later. If you want the bot to ignore your current badges use {:0}."
+        },
+        "SELL": {
+            "CHECK": "You currently have {:0} sets available that the bot can buy. For all of them, the bot will pay {:1} keys.",
+            "PROCESSING": "Processing your request.",
+            "ERR_TRADE_TRY": "An error occurred while getting your trade holds. Please try again.",
+            "INSUF_KEY": "The bot does not have enough keys.",
+            "MAX_SETS": "You don't have enough sets, (this bot only accepts {:0} sets per set type at a time). Please try again later.",
+            "TRADE_SENT": "Proposal sent! Confirming ...",
+            "VERIFY_TRADES": "Please make sure you don't have a trade hold!",
+            "LESSKEYS": "Please try a lower amount of keys",
+            "INVALID_QT": "Please provide a valid amount of keys."
+        },
+        "CHECK": {
+            "ISNAN": "With {:0} keys you can have {:1} sets.",
+            "NULL_BADGE": "Your badges are empty, checking without checking badges.",
+            "COMPLETE": "There are currently {:0} / {:1} sets available that you haven't fully created yet. Buying all of them will cost {:2} keys.",
+            "NOT_NULL": "Please provide a minimum number of keys."
+        },
+        "TRADE": {
+            "COMPLETE": "Trade confirmed! Click here to accept it: https://www.steamcommunity.com/tradeoffer/{:0} \n{:1}",
+            "COMMENT": "An error occurred while getting your profile (to comment).",
+            "GET_COMMENTS": "An error occurred while getting commenting on your profile.",
+            "THANKS": "Thanks for trading! :D"
+        }
+    }
+}
