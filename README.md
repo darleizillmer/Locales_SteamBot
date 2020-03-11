@@ -39,7 +39,7 @@ Correct:
 }
 ```
 
-Incorreto:
+Incorrect:
 ```json
 {
     "PLAY_NEW": "New message PLAY",
